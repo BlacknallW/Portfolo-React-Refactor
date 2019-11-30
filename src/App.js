@@ -65,7 +65,7 @@ function App() {
                                 <li onclick="openTab('Interests')"><a>Interests</a></li>
                                 </ul>
                             </div>
-                    <article class="content has-text-centered box" style="background-color: #545454; color: white;">
+                    <article class="content has-text-centered box">
                         <div id="Background" class="info-tab">
                             <section class="tile is-ancestor">
                                 <div class="tile is-parent">
@@ -87,7 +87,7 @@ function App() {
                                     </div>
                             </section>
                         </div>
-                        <div id="Projects" style="display: none;" class="info-tab">
+                        <div id="Projects" style={{display: "none"}} class="info-tab">
                             <div class="columns">
                                 <div class="column has-text-justified">
                                     <p class="subtitle has-text-centered">MyVitaLog</p>
@@ -116,7 +116,7 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div id="Skills" style="display: none;" class="info-tab">
+                        <div id="Skills" style={{display: "none"}} class="info-tab">
                             <div class="columns">
                                 <div class="column">
                                     <figure class="image is-128x128">
@@ -186,7 +186,7 @@ function App() {
                                     </figure>
                                 </div>
                             </div>
-                            <br>
+                            <br/>
                             <div class="columns">
                                     <div class="column">
                                             <figure class="image is-128x128">
@@ -221,7 +221,7 @@ function App() {
                                             </figure>
                                     </div>
                             </div>
-                            <br>
+                            <br/>
                             <div class="columns">
                                 <div class="column">
                                     <figure class="image is-128x128">
@@ -232,10 +232,10 @@ function App() {
                                     </figure>
                                 </div>
                             </div>
-                            <br>
+                            <br/>
                         </div>
-                        <div id="Interests" style="display: none;" class="info-tab">
-                            <h1 class=subtitle>These are a Few of my Favorite Things:</h1>
+                        <div id="Interests" style={{display: "none"}} class="info-tab">
+                            <h1 class="subtitle">These are a Few of my Favorite Things:</h1>
                             <div class="tile is-ancestor">
                                 <div class="tile is-parent">
                                     <div class="tile is-child">
@@ -247,7 +247,7 @@ function App() {
                                 <div class="tile is-parent">
                                     <div class="tile is-child">
                                         <figure class="image">
-                                            <img src="./images/generaltsoschicken.jpg">
+                                            <img src="./images/generaltsoschicken.jpg" alt="General Tso's Chicken"/>
                                             <figcaption>General Tso's Chicken</figcaption>
                                         </figure>
                                     </div>
