@@ -3,32 +3,17 @@ import "bulma/css/bulma.css";
 
 import ProfileHeader from "./Components/ProfileHeader"
 import SkillsBar from "./Components/SkillsBar"
+import AboutContainer from "./Components/AboutContainer"
 
 function App() {
 	return (<>
         <ProfileHeader />
+        <AboutContainer />
           <div class="tile is-child">
                     <article class="content has-text-centered box">
                         <div id="Background" class="info-tab">
                             <section class="tile is-ancestor">
-                                <div class="tile is-parent">
-                                    <div class="tile is-child">
-                                        <p class="subtitle">Born in Flint, Raised in Atlanta</p>
-                                        <article class="content has-text-justified">
-                                            <p> Greetings and salutations! My name is William Blacknall and I am a pseudo-homechef, software engineer, teacher, and lifelong student. I left the field of teaching to pursue my passion for technology and software development, and while I do miss my students and colleagues, I am excited about the opportunities of the future. <br/><br/>
-                                            
-                                            Much like technology, the world of education and effective teaching is always changing. My teaching background allows me to quickly break down and process new information, as my entire career has been centered around mincing complex information into managable chunks for young adolescents to understand. This makes me not only a quick learner, but also a great mentor.</p>
-                                        </article>
-                                        <SkillsBar />
-                                    </div>
-                                </div>
-                                <div class="tile is-parent">
-                                        <div class="tile is-child">
-                                            <figure class="">
-                                                <img src="./images/profilesmall.JPG" class="port-pic"/>
-                                            </figure>
-                                        </div>
-                                    </div>
+                                <SkillsBar />
                             </section>
                         </div>
                         <div id="Projects" style={{display: "none"}} class="info-tab">
