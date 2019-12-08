@@ -1,6 +1,8 @@
 import React from "react";
 
 import MyVitaLog from "../Images/MyVitaLog-Thumbnail.png";
+import NSAmericas from "../Images/nsamericas-thumbnail.png";
+import FridgeScavenger from "../Images/fridgescavenger-thumbnail.png";
 
 export default function ProjectsContainer() {
 	return (
@@ -15,7 +17,11 @@ export default function ProjectsContainer() {
 								alt="MyVitaLog Website Screenshot"
 							/>
 							<figcaption className="has-text-centered">
-								<a href="https://www.myvitalog.com/">
+								<a
+									href="https://www.myvitalog.com/"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
 									MyVitalog.com
 								</a>
 							</figcaption>
@@ -42,15 +48,82 @@ export default function ProjectsContainer() {
 					</div>
 					<div className="column box">
 						<p className="subtitle has-text-centered">NSAmericas</p>
-						<figure className="image"></figure>
-						<ul></ul>
+						<figure className="image">
+							<img
+								src={NSAmericas}
+								alt="NSAmericas Brazil Page"
+							/>
+							<figcaption className="has-text-centered">
+								<a
+									href="https://www.nsamericas.com/"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
+									NSAmericas.com
+								</a>
+							</figcaption>
+						</figure>
+						<ul>
+							<li>
+								<strong>Role:</strong> UI/UX Designer,
+								Navigation, Styling, and Functionality
+								Developer.
+							</li>
+							<li>
+								<strong>Description: </strong> Interactive
+								travel website offering information on travel
+								destinations in Brazil and the US.
+							</li>
+							<li>
+								<strong>Features: </strong> Five day weather
+								forcast for picture destinations, currency
+								exchange calculator for travel based on country
+								of origin.
+							</li>
+							<li>
+								<strong>Tools:</strong> ReactJS, BulmaCSS
+							</li>
+						</ul>
 					</div>
 					<div className="column box">
 						<p className="subtitle has-text-centered">
-							React Project
+							FridgeScavenger (In Development)
 						</p>
-						<figure className="image"></figure>
-						<ul></ul>
+						<figure className="image">
+							<img
+								src={FridgeScavenger}
+								alt="Fridge Scavenger Screenshot"
+							/>
+							<figcaption className="has-text-centered">
+								<a
+									href="https://fridgescavenger.com/"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
+									fridgescavenger.com
+								</a>
+							</figcaption>
+						</figure>
+						<ul>
+							<li>
+								<strong>Role: </strong>Lead Designer/Developer
+								(Solo Project)
+							</li>
+							<li>
+								<strong>Description:</strong> Recipe generating
+								website using Spoonacular's API, designed allow
+								users to input ingredients they own to generate
+								recipe suggestions.
+							</li>
+							<li>
+								<strong>Features:</strong> Classic recipe
+								search, ingredient-based recipe search.
+							</li>
+							<li>
+								<strong>Tools: </strong>NextJS, ReactJS,
+								BulmaCSS
+							</li>
+						</ul>
 					</div>
 				</div>
 			</section>
