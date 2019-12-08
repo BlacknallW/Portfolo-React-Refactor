@@ -2,7 +2,7 @@ import React from "react";
 import "bulma/css/bulma.css";
 import LinkedInLogo from "./Images/LI-In-Bug.png"
 import GitHubLogo from "./Images/GitHub-Mark-32px.png"
-import About from "./Components/About"
+import SkillsBar from "./Components/SkillsBar"
 
 function App() {
 	return (
@@ -71,11 +71,12 @@ function App() {
                                 <div class="tile is-parent">
                                     <div class="tile is-child">
                                         <p class="subtitle">Born in Flint, Raised in Atlanta</p>
-                                        <article class="content has-text-justified">
+                                        {/* <article class="content has-text-justified">
                                             <p> Greetings and salutations! My name is William Blacknall and I am a pseudo-homechef, software engineer, teacher, and lifelong student. I left the field of teaching to pursue my passion for technology and software development, and while I do miss my students and colleagues, I am excited about the opportunities of the future. <br/><br/>
                                             
                                             Much like technology, the world of education and effective teaching is always changing. My teaching background allows me to quickly break down and process new information, as my entire career has been centered around mincing complex information into managable chunks for young adolescents to understand. This makes me not only a quick learner, but also a great mentor.</p>
-                                        </article>
+                                        </article> */}
+                                        <SkillsBar />
                                     </div>
                                 </div>
                                 <div class="tile is-parent">
