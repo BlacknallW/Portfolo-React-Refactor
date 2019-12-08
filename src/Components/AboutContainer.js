@@ -6,12 +6,12 @@ export default function AboutContainer() {
 	return (
 		<>
 			<div className="section box">
-				<p class="subtitle has-text-centered">
+				<p className="subtitle has-text-centered">
 					Born in Flint, Raised in Atlanta
 				</p>
-				<div class="tile">
-					<div class="tile is-child">
-						<article class="content">
+				<div className="tile">
+					<div className="tile is-child">
+						<article className="content">
 							<p>
 								{" "}
 								Greetings and salutations! My name is William

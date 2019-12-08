@@ -4,7 +4,7 @@ export default function SkillsBar() {
 	return (
 		<>
 			<div className="table-container box">
-				<table class="table is-bordered is-hoverable is-fullwidth">
+				<table className="table is-bordered is-hoverable is-narrow is-striped">
 					<thead>
 						<tr>
 							<td

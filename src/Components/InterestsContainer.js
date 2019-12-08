@@ -6,12 +6,12 @@ export default function InterestsContainer() {
 	return (
 		<>
 			<div id="Interests" className="section box">
-				<h1 class="subtitle has-text-centered">
+				<h1 className="subtitle has-text-centered">
 					These are a Few of my Favorite Things:
 				</h1>
-				<div class="tile">
-					<div class="tile is-child">
-						<article class="content">
+				<div className="tile">
+					<div className="tile is-child">
+						<article className="content">
 							<p>
 								Was that a Mary Poppins song? Not sure. In any
 								case, as you may have gathered from the
@@ -38,7 +38,10 @@ export default function InterestsContainer() {
 							</p>
 						</article>
 					</div>
-					<div class="tile is-child "style={{ borderRadius: "10%" }}>
+					<div
+						className="tile is-child "
+						style={{ borderRadius: "10%" }}
+					>
 						<figure>
 							<img
 								src={GeneralTso}

@@ -6,10 +6,10 @@ export default function ProjectsContainer() {
 	return (
 		<>
 			<section className="container box">
-				<div class="columns">
-					<div class="column box">
-						<p class="subtitle has-text-centered">MyVitaLog</p>
-						<figure class="image">
+				<div className="columns">
+					<div className="column box">
+						<p className="subtitle has-text-centered">MyVitaLog</p>
+						<figure className="image">
 							<img
 								src={MyVitaLog}
 								alt="MyVitaLog Website Screenshot"
@@ -40,13 +40,15 @@ export default function ProjectsContainer() {
 							</li>
 						</ul>
 					</div>
-					<div class="column box">
-						<p class="subtitle has-text-centered">NSAmericas</p>
-						<figure class="image"></figure>
+					<div className="column box">
+						<p className="subtitle has-text-centered">NSAmericas</p>
+						<figure className="image"></figure>
 						<ul></ul>
 					</div>
-					<div class="column box">
-						<p class="subtitle has-text-centered">React Project</p>
+					<div className="column box">
+						<p className="subtitle has-text-centered">
+							React Project
+						</p>
 						<figure className="image"></figure>
 						<ul></ul>
 					</div>
