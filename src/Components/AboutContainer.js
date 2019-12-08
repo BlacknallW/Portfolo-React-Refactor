@@ -33,10 +33,21 @@ export default function AboutContainer() {
 							</p>
 						</article>
 					</div>
-					<div className="tile is-child" style={{borderRadius: "10%"}}>
+					<div
+						className="tile is-child"
+						style={{ borderRadius: "10%" }}
+					>
 						<figure>
-                            <img src={ProfilePicture} alt="BlacknallHeadshot"
-                            style={{borderRadius: "10%", display:"block", marginLeft:"auto", marginRight:"auto"}} />
+							<img
+								src={ProfilePicture}
+								alt="BlacknallHeadshot"
+								style={{
+									borderRadius: "10%",
+									display: "block",
+									marginLeft: "auto",
+									marginRight: "auto"
+								}}
+							/>
 						</figure>
 					</div>
 				</div>
