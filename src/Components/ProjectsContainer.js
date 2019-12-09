@@ -50,7 +50,15 @@ export default function ProjectsContainer() {
 									<strong>Tools:</strong> Node.js, Express,
 									PostgreSQL, BulmaCSS.
 								</li>
-								<li><strong>GitHub Repo:</strong><a href="https://github.com/BlacknallW/NutritionProject" rel="noreferrer noopener">My VitaLog</a></li>
+								<li>
+									<strong>GitHub Repo: </strong>
+									<a
+										href="https://github.com/BlacknallW/NutritionProject"
+										rel="noreferrer noopener"
+									>
+										My VitaLog
+									</a>
+								</li>
 							</ul>
 						</article>
 					</div>
@@ -95,7 +103,14 @@ export default function ProjectsContainer() {
 									<strong>Tools:</strong> ReactJS, BulmaCSS
 								</li>
 								<li>
-									<strong>GitHub Repo:</strong><a href="https://github.com/BlacknallW/Frontend-React-Refactor" target="_blank" rel="noopener noreferrer">NS Americas</a>
+									<strong>GitHub Repo: </strong>
+									<a
+										href="https://github.com/BlacknallW/Frontend-React-Refactor"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										NS Americas
+									</a>
 								</li>
 							</ul>
 						</article>
@@ -140,7 +155,7 @@ export default function ProjectsContainer() {
 									BulmaCSS
 								</li>
 								<li>
-									<strong>GitHub Repo:</strong>
+									<strong>GitHub Repo: </strong>
 									<a
 										href="https://github.com/BlacknallW/react-fridgescavenger-project"
 										target="_blank"
