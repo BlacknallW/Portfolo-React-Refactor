@@ -55,6 +55,7 @@ export default function ProjectsContainer() {
 									<a
 										href="https://github.com/BlacknallW/NutritionProject"
 										rel="noreferrer noopener"
+										target="_blank"
 									>
 										My VitaLog
 									</a>
