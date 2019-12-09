@@ -7,9 +7,10 @@ import FridgeScavenger from "../Images/fridgescavenger-thumbnail.png";
 export default function ProjectsContainer() {
 	return (
 		<>
-			<section className="container">	<p className="title has-text-centered">Projects</p>
+			<section className="container">
+				{" "}
+				<p className="title has-text-centered">Projects</p>
 				<div class="tile is-ancestor">
-				
 					<div class="tile is-parent">
 						<article class="tile is-child box">
 							<p className="subtitle has-text-centered">
@@ -98,7 +99,7 @@ export default function ProjectsContainer() {
 					<div class="tile is-parent">
 						<article class="tile is-child box">
 							<p className="subtitle has-text-centered">
-								FridgeScavenger (In Development)
+								FridgeScavenger
 							</p>
 							<figure className="image">
 								<img
