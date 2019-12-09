@@ -5,7 +5,7 @@ import GitHubLogo from "../Images/GitHub-Mark-32px.png";
 export default function ProfileHeader() {
 	return (
 		<>
-			<section className="hero">
+			<section className="hero is-dark">
 				<div className="hero-head">
 					<article className="container has-text-centered">
 						<h1 className="title">William Blacknall</h1>

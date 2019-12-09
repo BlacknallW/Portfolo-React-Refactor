@@ -7,7 +7,7 @@ import FridgeScavenger from "../Images/fridgescavenger-thumbnail.png";
 export default function ProjectsContainer() {
 	return (
 		<>
-			<section className="container box">
+			<section className="container">
 				<div className="columns">
 					<div className="column box">
 						<p className="subtitle has-text-centered">MyVitaLog</p>
@@ -76,7 +76,7 @@ export default function ProjectsContainer() {
 							</li>
 							<li>
 								<strong>Features: </strong> Five day weather
-								forcast for picture destinations, currency
+								forecast for picture destinations, currency
 								exchange calculator for travel based on country
 								of origin.
 							</li>
@@ -100,7 +100,7 @@ export default function ProjectsContainer() {
 									target="_blank"
 									rel="noreferrer noopener"
 								>
-									fridgescavenger.com
+									FridgeScavenger.com
 								</a>
 							</figcaption>
 						</figure>
@@ -111,7 +111,7 @@ export default function ProjectsContainer() {
 							</li>
 							<li>
 								<strong>Description:</strong> Recipe generating
-								website using Spoonacular's API, designed allow
+								website using Spoonacular's API, designed to allow
 								users to input ingredients they own to generate
 								recipe suggestions.
 							</li>

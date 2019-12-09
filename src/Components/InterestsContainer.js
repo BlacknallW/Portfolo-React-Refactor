@@ -39,7 +39,7 @@ export default function InterestsContainer() {
 						</article>
 					</div>
 					<div
-						className="tile is-child "
+						className="tile is-child is-4"
 						style={{ borderRadius: "10%" }}
 					>
 						<figure>
