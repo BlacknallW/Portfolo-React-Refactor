@@ -10,11 +10,21 @@ import InterestsContainer from "./Components/InterestsContainer";
 function App() {
 	return (
 		<>
-			<ProfileHeader />
-			<AboutContainer />
-			<ProjectsContainer />
-			<SkillsBar />
-			<InterestsContainer />
+			<section class="hero is-light is-fullheight">
+				<div class="hero-head">
+					<ProfileHeader />
+					<br />
+					<AboutContainer />
+					<br />
+					<ProjectsContainer />
+					<br />
+					<SkillsBar />
+					<br />
+					<InterestsContainer />
+				</div>
+				<div class="hero-body"></div>
+				<div class="hero-foot"></div>
+			</section>
 		</>
 	);
 }

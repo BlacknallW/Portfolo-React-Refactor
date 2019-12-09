@@ -3,18 +3,9 @@ import React from "react";
 export default function SkillsBar() {
 	return (
 		<>
+			<p className="title has-text-centered">Skills</p>
 			<div className="table-container box">
 				<table className="table is-bordered is-hoverable is-narrow is-striped">
-					<thead>
-						<tr>
-							<td
-								colSpan="100"
-								className="is-selected title has-text-centered"
-							>
-								Skills
-							</td>
-						</tr>
-					</thead>
 					<tbody>
 						<tr>
 							<td>

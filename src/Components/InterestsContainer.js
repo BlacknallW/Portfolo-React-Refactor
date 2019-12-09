@@ -5,7 +5,8 @@ import GeneralTso from "../Images/generaltsoschicken.jpg";
 export default function InterestsContainer() {
 	return (
 		<>
-			<div id="Interests" className="section box">
+		<h1 className="title has-text-centered">Interests</h1>
+			<div className="section box">
 				<h1 className="subtitle has-text-centered">
 					These are a Few of my Favorite Things:
 				</h1>
