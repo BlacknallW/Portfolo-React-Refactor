@@ -1,6 +1,7 @@
 import React from "react";
 import LinkedInLogo from "../Images/LI-In-Bug.png";
 import GitHubLogo from "../Images/GitHub-Mark-32px.png";
+import PDF from "../Images/BlacknallW 2019 Software Engineer Resume.pdf"
 
 export default function ProfileHeader() {
 	return (
@@ -44,6 +45,9 @@ export default function ProfileHeader() {
 									title="williamblacknall@gmail.com"
 								/>
 							</a>
+						</li>
+						<li>
+							<a href={PDF} target="_blank" rel="noreferrer noopener">Resume</a>
 						</li>
 					</ul>
 				</div>
