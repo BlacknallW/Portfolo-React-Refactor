@@ -11,7 +11,7 @@ export default function ProfileHeader() {
 				<div className="tabs is-centered is-boxed">
 					<ul>
 						<li>
-							<a href="https://github.com/BlacknallW">
+							<a href="https://github.com/BlacknallW" target="_blank" rel="noreferrer noopener">
 								<img
 									src={GitHubLogo}
 									alt="GitHub Profile"
@@ -20,7 +20,7 @@ export default function ProfileHeader() {
 							</a>
 						</li>
 						<li>
-							<a href="https://www.linkedin.com/in/william-blacknall-9509a5116/">
+							<a href="https://www.linkedin.com/in/william-blacknall-9509a5116/" target="_blank" rel="noreferrer noopener">
 								<img
 									src={LinkedInLogo}
 									alt="LinkedIn Profile"
