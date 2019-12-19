@@ -139,7 +139,9 @@ export default function ProjectsContainer() {
 							<ul>
 								<li>
 									<strong>Role: </strong>Lead
-									Designer/Developer (Solo Project)
+									Designer/Developer (Solo Project) Major
+									Backend Assistance courtesy of Christopher
+									Kemp.
 								</li>
 								<li>
 									<strong>Description:</strong> Recipe
@@ -149,11 +151,13 @@ export default function ProjectsContainer() {
 								</li>
 								<li>
 									<strong>Features:</strong> Classic recipe
-									search, ingredient-based recipe search.
+									search, ingredient-based recipe search, user
+									login/logout/signup functionality, and
+									recipe saving.
 								</li>
 								<li>
 									<strong>Tools: </strong>NextJS, ReactJS,
-									BulmaCSS
+									BulmaCSS, Express, PostgreSQL
 								</li>
 								<li>
 									<strong>GitHub Repo: </strong>
