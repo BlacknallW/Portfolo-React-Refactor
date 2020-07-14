@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<section class="hero is-light is-fullheight">
-				<div class="hero-head">
+				<div class="section hero-head">
 					<ProfileHeader />
 					<br />
 					<AboutContainer />
