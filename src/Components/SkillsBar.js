@@ -4,8 +4,8 @@ export default function SkillsBar() {
 	return (
 		<>
 			<p className="title has-text-centered">Skills</p>
-			<div className="table-container box">
-				<table className="table is-bordered is-hoverable is-narrow is-striped is-centered box">
+			<div  className="table-container box section" >
+				<table className="table is-bordered is-hoverable is-narrow is-striped is-centered" style={imageStyling}>
 					<tbody>
 						<tr>
 							<td>
