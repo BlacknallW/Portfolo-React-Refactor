@@ -75,11 +75,11 @@ export default function ProjectsContainer() {
 								/>
 								<figcaption className="has-text-centered">
 									<a
-										href="https://www.nsamericas.com/"
+										href="https://stupefied-swanson-968f51.netlify.app/"
 										target="_blank"
 										rel="noreferrer noopener"
 									>
-										NSAmericas.com
+										NSAmericas Website
 									</a>
 								</figcaption>
 							</figure>
@@ -128,11 +128,11 @@ export default function ProjectsContainer() {
 								/>
 								<figcaption className="has-text-centered">
 									<a
-										href="https://fridgescavenger.com/"
+										href="https://react-fridgescavenger-project-jvmbs0n8h.vercel.app/"
 										target="_blank"
 										rel="noreferrer noopener"
 									>
-										FridgeScavenger.com
+										FridgeScavenger Website
 									</a>
 								</figcaption>
 							</figure>
